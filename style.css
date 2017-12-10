@@ -1,0 +1,42 @@
+@font-face {
+  font-family: "Josefin Sans";
+  src: url("./fonts/JosefinSans-Regular.ttf");
+}
+
+/*General Page Styles*/
+body {
+  font-family: "Josefin Sans", sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+  padding: 50px;
+  margin: 10px;
+  max-width: 100px;
+  display: inline-block;
+  border: 2px solid black;
+  transition: all 0.2s ease-in;
+}
+
+a:hover {
+  color: lightcoral;
+  border: 7px solid lightcoral;
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 900px;
+  text-align: center;
+}
+
+.container > .header {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+#header-bar {
+  height: 5px;
+  background: lightcoral;
+  border: none;
+}
