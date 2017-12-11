@@ -11,17 +11,22 @@ body {
 a {
   text-decoration: none;
   color: black;
-  padding: 50px;
   margin: 10px;
-  max-width: 100px;
+  width: 100px;
+  height: 100px;
   display: inline-block;
-  border: 2px solid black;
+  border: 4px solid black;
   transition: all 0.2s ease-in;
 }
 
 a:hover {
-  color: lightcoral;
-  border: 7px solid lightcoral;
+  color: white;
+  border: 4px solid lightcoral;
+  background: lightcoral;
+}
+
+a > .content {
+  margin-top: 40px;
 }
 
 .container {
@@ -39,4 +44,9 @@ a:hover {
   height: 5px;
   background: lightcoral;
   border: none;
+}
+
+.papers {
+  max-width: 500px;
+  margin: 0 auto;
 }
