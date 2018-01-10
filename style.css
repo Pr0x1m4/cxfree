@@ -9,7 +9,7 @@ body {
   margin: 0;
 }
 
-a {
+.papers > a {
   text-decoration: none;
   color: black;
   margin: 10px;
@@ -20,7 +20,7 @@ a {
   transition: all 0.2s ease-in;
 }
 
-a:hover {
+.papers > a:hover {
   color: white;
   border: 4px solid lightcoral;
   background: lightcoral;
@@ -36,15 +36,47 @@ a > .content {
   text-align: center;
 }
 
-.container > .header {
-  margin-top: 50px;
-  margin-bottom: 50px;
+.navbar {
+  height: 30px;
+  background: white;
+  padding: 20px;
 }
 
+.navbar > p {
+  font-size: 18px;
+  margin: 0;
+}
+.banner {
+  background-image: url("./img/banner.jpeg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 600px;
+  padding: 10px;
+}
+.header {
+  margin-top: 250px;
+}
+.header > p {
+  font-size: 20px;
+}
 #header-bar {
   height: 5px;
   background: lightcoral;
   border: none;
+}
+
+.action-button {
+  padding: 20px;
+  margin-top: 20px;
+  color: white;
+  background: lightcoral;
+  border: none;
+  outline: none;
+  text-decoration: none;
+
+  text-transform: uppercase;
+  font-weight: 700;
 }
 
 .papers {
