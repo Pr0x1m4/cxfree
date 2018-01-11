@@ -54,6 +54,7 @@ a > .content {
   height: 600px;
   padding: 10px;
 }
+
 .header {
   margin-top: 250px;
 }
@@ -93,4 +94,19 @@ footer {
   font-weight: 700;
   background: lightcoral;
   color: white;
+}
+
+@media all and (max-width: 900px), (max-device-width: 900px) {
+  .banner {
+    background-image: url("./img/banner_large.jpeg");
+  }
+}
+
+@media all and (max-width: 500px), (max-device-width: 500px) {
+  .header {
+    margin-top: 150px;
+  }
+  .banner {
+    background-image: url("./img/banner_medium.jpeg");
+  }
 }
